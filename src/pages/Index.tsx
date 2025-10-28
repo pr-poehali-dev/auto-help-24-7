@@ -61,6 +61,11 @@ const Index = () => {
       icon: "TruckIcon",
       title: "Эвакуация",
       description: "Срочная эвакуация"
+    },
+    {
+      icon: "Settings",
+      title: "Слесарные работы",
+      description: "Профессиональный ремонт"
     }
   ];
 
