@@ -147,14 +147,6 @@ const Index = () => {
               Полный спектр услуг по ремонту электрооборудования грузовых автомобилей
             </p>
           </div>
-          
-          <div className="mb-12 rounded-2xl overflow-hidden shadow-2xl animate-fade-in">
-            <img 
-              src="https://cdn.poehali.dev/files/d3224631-cb83-40c7-b6df-38f573861eee.jpg" 
-              alt="Грузовой автоэлектрик - техпомощь на дороге"
-              className="w-full h-[400px] object-cover"
-            />
-          </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service, index) => (
