@@ -38,9 +38,9 @@ const Index = () => {
       description: "Волгоград и вся область"
     },
     {
-      icon: "Truck",
-      title: "Грузовые авто",
-      description: "Специализация на тяжелой технике"
+      icon: "Wrench",
+      title: "Ремонт на дороге",
+      description: "Устраняем проблемы на месте"
     },
     {
       icon: "Package",
