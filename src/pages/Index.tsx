@@ -51,6 +51,11 @@ const Index = () => {
       icon: "CheckCircle",
       title: "Оплата",
       description: "Только за результат"
+    },
+    {
+      icon: "Users",
+      title: "Все клиенты",
+      description: "Работаем с физ. и юр. лицами"
     }
   ];
 
