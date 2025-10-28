@@ -297,10 +297,10 @@ const Index = () => {
       <section className="py-20 px-4 bg-gradient-to-br from-secondary via-secondary to-secondary/90">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-secondary-foreground mb-6">
-            Нужна помощь прямо сейчас?
+            Опишите свою проблему
           </h2>
           <p className="text-xl text-secondary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Звоните в любое время — мы работаем круглосуточно без выходных
+            И мы быстро найдем решение
           </p>
           <Button 
             onClick={handleCall}
@@ -308,7 +308,7 @@ const Index = () => {
             className="bg-primary hover:bg-primary/90 text-primary-foreground text-2xl px-12 py-8 shadow-2xl hover:shadow-3xl transition-all animate-scale-in"
           >
             <Icon name="Phone" size={32} className="mr-3" />
-            8 977 663 48 93
+            +7 977 663 48 93
           </Button>
         </div>
       </section>
