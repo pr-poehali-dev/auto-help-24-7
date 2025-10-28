@@ -43,9 +43,9 @@ const Index = () => {
       description: "Специализация на тяжелой технике"
     },
     {
-      icon: "ThumbsUp",
-      title: "Опыт",
-      description: "Профессиональные автоэлектрики"
+      icon: "Package",
+      title: "Запчасти",
+      description: "От надежных поставщиков"
     }
   ];
 
