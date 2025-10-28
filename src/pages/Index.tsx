@@ -319,7 +319,7 @@ const Index = () => {
             <Icon name="Zap" className="text-secondary" size={32} />
             <span className="text-2xl font-bold">АвтоЭлектрик</span>
           </div>
-          <p className="text-lg mb-4">Автоэлектрик для грузовых автомобилей</p>
+          <p className="text-lg mb-4">Автоэлектрик для грузовых и легковых авто</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
             <a href="tel:+79776634893" className="text-xl font-semibold hover:text-secondary transition-colors">
               <Icon name="Phone" size={20} className="inline mr-2" />
