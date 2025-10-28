@@ -147,7 +147,16 @@ const Index = () => {
               Полный спектр услуг по ремонту электрооборудования грузовых автомобилей
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <div className="mb-12 rounded-2xl overflow-hidden shadow-2xl animate-fade-in">
+            <img 
+              src="https://cdn.poehali.dev/files/d3224631-cb83-40c7-b6df-38f573861eee.jpg" 
+              alt="Грузовой автоэлектрик - техпомощь на дороге"
+              className="w-full h-[400px] object-cover"
+            />
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service, index) => (
               <Card 
                 key={index} 
@@ -155,13 +164,13 @@ const Index = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardContent className="pt-6 pb-6">
-                  <div className="flex items-start gap-4">
+                  <div className="flex flex-col items-center text-center gap-3">
                     <div className="bg-secondary/10 p-3 rounded-lg">
-                      <Icon name={service.icon as any} className="text-secondary" size={28} />
+                      <Icon name={service.icon as any} className="text-secondary" size={32} />
                     </div>
                     <div className="flex-1">
-                      <h3 className="font-bold text-xl mb-2">{service.title}</h3>
-                      <p className="text-muted-foreground">{service.description}</p>
+                      <h3 className="font-bold text-lg mb-2">{service.title}</h3>
+                      <p className="text-muted-foreground text-sm">{service.description}</p>
                     </div>
                   </div>
                 </CardContent>
