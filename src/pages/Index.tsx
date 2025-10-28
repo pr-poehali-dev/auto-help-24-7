@@ -63,6 +63,10 @@ const Index = () => {
     window.location.href = "tel:+79776634893";
   };
 
+  const handleWhatsApp = () => {
+    window.open("https://wa.me/79776634893", "_blank");
+  };
+
   return (
     <div className="min-h-screen bg-background">
       <header className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-sm border-b border-primary/20">
@@ -103,6 +107,14 @@ const Index = () => {
             >
               <Icon name="PhoneCall" size={24} className="mr-2" />
               8 977 663 48 93
+            </Button>
+            <Button 
+              onClick={handleWhatsApp}
+              size="lg"
+              className="bg-green-500 hover:bg-green-600 text-white text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
+            >
+              <Icon name="MessageCircle" size={24} className="mr-2" />
+              WhatsApp
             </Button>
             <Button 
               variant="outline"
@@ -223,10 +235,21 @@ const Index = () => {
             <span className="text-2xl font-bold">АвтоЭлектрик</span>
           </div>
           <p className="text-lg mb-4">Автоэлектрик для грузовых автомобилей</p>
-          <p className="text-xl font-semibold mb-6">
-            <Icon name="Phone" size={20} className="inline mr-2" />
-            8 977 663 48 93
-          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
+            <a href="tel:+79776634893" className="text-xl font-semibold hover:text-secondary transition-colors">
+              <Icon name="Phone" size={20} className="inline mr-2" />
+              8 977 663 48 93
+            </a>
+            <a 
+              href="https://wa.me/79776634893" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-xl font-semibold hover:text-green-400 transition-colors flex items-center"
+            >
+              <Icon name="MessageCircle" size={20} className="mr-2" />
+              WhatsApp
+            </a>
+          </div>
           <p className="text-sm opacity-70">
             Волгоград и Волгоградская область • Круглосуточно 24/7 • Выезд до 300 км
           </p>
