@@ -56,6 +56,11 @@ const Index = () => {
       icon: "Users",
       title: "Все клиенты",
       description: "Работаем с физ. и юр. лицами"
+    },
+    {
+      icon: "Gauge",
+      title: "Диагностика",
+      description: "Надежными приборами"
     }
   ];
 
