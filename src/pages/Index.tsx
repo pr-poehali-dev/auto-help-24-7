@@ -145,7 +145,7 @@ const Index = () => {
 
       <section className="py-16 px-4 bg-background">
         <div className="container mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             {advantages.map((advantage, index) => (
               <Card 
                 key={index} 
@@ -172,7 +172,7 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service, index) => (
               <Card 
                 key={index} 
