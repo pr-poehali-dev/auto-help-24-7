@@ -46,6 +46,11 @@ const Index = () => {
       icon: "Package",
       title: "Запчасти",
       description: "От надежных поставщиков"
+    },
+    {
+      icon: "CheckCircle",
+      title: "Оплата",
+      description: "Только за результат"
     }
   ];
 
