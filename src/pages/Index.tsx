@@ -61,9 +61,13 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-sm border-b border-primary/20">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <Icon name="Zap" className="text-secondary" size={28} />
-            <span className="text-xl font-bold text-primary-foreground">АвтоЭлектрик</span>
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://cdn.poehali.dev/projects/d49bcc76-c470-4147-8c81-e676f14fe243/files/5d9d603b-c86b-4c3a-95fe-58f9e551cbc8.jpg" 
+              alt="Мастер дорог - логотип"
+              className="w-12 h-12 rounded-full object-cover"
+            />
+            <span className="text-xl font-bold text-primary-foreground">Мастер дорог</span>
           </div>
           <Button 
             onClick={handleCall}
