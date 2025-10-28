@@ -90,7 +90,7 @@ const Index = () => {
           </div>
           <h1 className="text-5xl md:text-7xl font-extrabold text-primary-foreground mb-6 leading-tight">
             Автоэлектрик<br />
-            <span className="text-secondary">для грузовых авто</span>
+            <span className="text-secondary">для грузовых и легковых авто</span>
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
             Техпомощь на дороге в Волгограде и области. Выезд до 300 км. Профессиональный ремонт электрики грузовых автомобилей.
