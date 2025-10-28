@@ -180,6 +180,91 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-20 px-4 bg-background">
+        <div className="container mx-auto">
+          <div className="text-center mb-16 animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Почему выбирают нас</h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Профессиональный подход и гарантия качества на все виды работ
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="border-2 hover:shadow-xl transition-all animate-slide-up">
+              <CardContent className="pt-8 pb-8 text-center">
+                <div className="bg-secondary/10 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Icon name="Award" className="text-secondary" size={40} />
+                </div>
+                <h3 className="text-2xl font-bold mb-3">Опыт и профессионализм</h3>
+                <p className="text-muted-foreground">
+                  Многолетний опыт работы с электрооборудованием грузовых и легковых автомобилей
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:shadow-xl transition-all animate-slide-up" style={{ animationDelay: '0.1s' }}>
+              <CardContent className="pt-8 pb-8 text-center">
+                <div className="bg-secondary/10 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Icon name="Clock" className="text-secondary" size={40} />
+                </div>
+                <h3 className="text-2xl font-bold mb-3">Быстрый выезд</h3>
+                <p className="text-muted-foreground">
+                  Прибываем на место в течение 30-60 минут после вызова, работаем круглосуточно
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:shadow-xl transition-all animate-slide-up" style={{ animationDelay: '0.2s' }}>
+              <CardContent className="pt-8 pb-8 text-center">
+                <div className="bg-secondary/10 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Icon name="Tool" className="text-secondary" size={40} />
+                </div>
+                <h3 className="text-2xl font-bold mb-3">Полное оснащение</h3>
+                <p className="text-muted-foreground">
+                  Современное диагностическое оборудование и все необходимые инструменты
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:shadow-xl transition-all animate-slide-up" style={{ animationDelay: '0.3s' }}>
+              <CardContent className="pt-8 pb-8 text-center">
+                <div className="bg-secondary/10 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Icon name="ShieldCheck" className="text-secondary" size={40} />
+                </div>
+                <h3 className="text-2xl font-bold mb-3">Гарантия качества</h3>
+                <p className="text-muted-foreground">
+                  Предоставляем гарантию на все виды выполненных работ и установленные запчасти
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:shadow-xl transition-all animate-slide-up" style={{ animationDelay: '0.4s' }}>
+              <CardContent className="pt-8 pb-8 text-center">
+                <div className="bg-secondary/10 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Icon name="Wallet" className="text-secondary" size={40} />
+                </div>
+                <h3 className="text-2xl font-bold mb-3">Честные цены</h3>
+                <p className="text-muted-foreground">
+                  Прозрачное ценообразование, никаких скрытых платежей и доплат
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:shadow-xl transition-all animate-slide-up" style={{ animationDelay: '0.5s' }}>
+              <CardContent className="pt-8 pb-8 text-center">
+                <div className="bg-secondary/10 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Icon name="MapPin" className="text-secondary" size={40} />
+                </div>
+                <h3 className="text-2xl font-bold mb-3">Широкая география</h3>
+                <p className="text-muted-foreground">
+                  Выезжаем по всей Волгоградской области в радиусе до 300 км
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 px-4 bg-primary text-primary-foreground">
         <div className="container mx-auto text-center">
           <Icon name="MapPin" className="mx-auto mb-6 text-secondary" size={56} />
