@@ -120,7 +120,7 @@ const Index = () => {
               className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
             >
               <Icon name="PhoneCall" size={24} className="mr-2" />
-              8 977 663 48 93
+              8 902 656 20 20
             </Button>
             <Button 
               onClick={handleWhatsApp}
