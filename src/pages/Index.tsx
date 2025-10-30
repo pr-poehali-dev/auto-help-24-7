@@ -70,11 +70,11 @@ const Index = () => {
   ];
 
   const handleCall = () => {
-    window.location.href = "tel:+79776634893";
+    window.location.href = "tel:+79026562020";
   };
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/79776634893", "_blank");
+    window.open("https://wa.me/79026562020", "_blank");
   };
 
   return (
