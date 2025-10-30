@@ -334,12 +334,12 @@ const Index = () => {
           </div>
           <p className="text-lg mb-4">Автоэлектрик для грузовых и легковых авто</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-            <a href="tel:+79776634893" className="text-xl font-semibold hover:text-secondary transition-colors">
+            <a href="tel:+79026562020" className="text-xl font-semibold hover:text-secondary transition-colors">
               <Icon name="Phone" size={20} className="inline mr-2" />
-              8 977 663 48 93
+              8 902 656 20 20
             </a>
             <a 
-              href="https://wa.me/79776634893" 
+              href="https://wa.me/79026562020" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-xl font-semibold hover:text-green-400 transition-colors flex items-center"
