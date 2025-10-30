@@ -106,9 +106,9 @@ const Index = () => {
             <Icon name="Clock" size={18} />
             <span className="font-semibold">Работаем 24/7</span>
           </div>
-          <h1 className="md:text-7xl text-primary-foreground mb-6 leading-tight px-0 font-bold text-center text-5xl">
+          <h1 className="md:text-7xl text-primary-foreground mb-6 leading-tight px-0 font-bold text-center text-3xl">
             Автоэлектрик<br />
-            <span className="text-secondary">для грузовых и легковых авто</span>
+            <span className="text-secondary text-5xl">для грузовых и легковых авто</span>
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
             Техпомощь на дороге в Волгограде и области. Выезд до 300 км. Профессиональный ремонт электрики грузовых автомобилей.
