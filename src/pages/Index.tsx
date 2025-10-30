@@ -77,6 +77,10 @@ const Index = () => {
     window.open("https://wa.me/79026562020", "_blank");
   };
 
+  const handleTelegram = () => {
+    window.open("https://t.me/+79026562020", "_blank");
+  };
+
   return (
     <div className="min-h-screen bg-background">
       <header className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-sm border-b border-primary/20">
@@ -129,6 +133,14 @@ const Index = () => {
             >
               <Icon name="MessageCircle" size={24} className="mr-2" />
               WhatsApp
+            </Button>
+            <Button 
+              onClick={handleTelegram}
+              size="lg"
+              className="bg-blue-500 hover:bg-blue-600 text-white text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
+            >
+              <Icon name="Send" size={24} className="mr-2" />
+              Telegram
             </Button>
             <Button 
               variant="outline"
