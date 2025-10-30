@@ -106,7 +106,7 @@ const Index = () => {
             <Icon name="Clock" size={18} />
             <span className="font-semibold">Работаем 24/7</span>
           </div>
-          <h1 className="md:text-7xl text-primary-foreground mb-6 leading-tight px-0 font-bold text-center text-5xl">
+          <h1 className="md:text-7xl text-primary-foreground mb-6 leading-tight px-0 font-bold text-center text-4xl">
             Автоэлектрик<br />
             <span className="text-secondary text-5xl">для грузовых и легковых авто</span>
           </h1>
