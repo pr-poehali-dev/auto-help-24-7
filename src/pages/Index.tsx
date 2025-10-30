@@ -321,10 +321,8 @@ const Index = () => {
             onClick={handleCall}
             size="lg"
             className="bg-primary hover:bg-primary/90 text-primary-foreground text-2xl px-12 py-8 shadow-2xl hover:shadow-3xl transition-all animate-scale-in"
-          >
-            <Icon name="Phone" size={32} className="mr-3" />
-            +7 977 663 48 93
-          </Button>
+          >+7 902 656 20 20
+</Button>
         </div>
       </section>
 
