@@ -104,26 +104,7 @@ const Index = () => {
         </div>
       </header>
 
-      <nav className="pt-20 pb-2 px-4 bg-background border-b">
-        <div className="container mx-auto">
-          <ol className="flex items-center gap-2 text-sm text-muted-foreground" itemScope itemType="https://schema.org/BreadcrumbList">
-            <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-              <a href="/" itemProp="item" className="hover:text-primary transition-colors flex items-center gap-1">
-                <Icon name="Home" size={14} />
-                <span itemProp="name">Главная</span>
-              </a>
-              <meta itemProp="position" content="1" />
-            </li>
-            <Icon name="ChevronRight" size={14} />
-            <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-              <span itemProp="name" className="text-foreground font-medium">Автоэлектрик с выездом 24/7</span>
-              <meta itemProp="position" content="2" />
-            </li>
-          </ol>
-        </div>
-      </nav>
-
-      <section className="pt-20 pb-20 px-4 bg-gradient-to-br from-primary via-primary to-primary/90">
+      <section className="pt-32 pb-20 px-4 bg-gradient-to-br from-primary via-primary to-primary/90">
         <div className="container mx-auto text-center animate-fade-in">
           <div className="inline-flex items-center gap-2 bg-secondary/20 text-secondary-foreground px-4 py-2 rounded-full mb-6 backdrop-blur-sm">
             <Icon name="Clock" size={18} />
